@@ -26,3 +26,21 @@ The script scans a directory and classifies files:
 - File analysis
 - Security mindset (threat detection)
 - SOC environment simulation
+
+## Improvements
+
+This version includes enhanced detection capabilities:
+
+- Detection of double extension files (e.g. file.jpg.exe)
+- Basic threat counting
+- Improved alert classification:
+  - [ALERTA] Executable detected
+  - [CRITICO] Evasion technique detected
+
+## Example (Improved Output)
+
+[ALERTA] Ejecutable detectado: virus.exe  
+[ALERTA] Ejecutable detectado: foto.jpg.exe  
+[CRITICO] Posible evasión por doble extensión: foto.jpg.exe  
+
+Total de archivos sospechosos: 2
