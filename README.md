@@ -27,6 +27,8 @@ The script scans a directory and classifies files:
 - Security mindset (threat detection)
 - SOC environment simulation
 
+---
+
 ## Improvements
 
 This version includes enhanced detection capabilities:
