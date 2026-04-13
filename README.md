@@ -46,3 +46,23 @@ This version includes enhanced detection capabilities:
 [CRITICO] Posible evasión por doble extensión: foto.jpg.exe  
 
 Total de archivos sospechosos: 2
+
+---
+
+## Logging Feature
+
+This version includes log generation for audit and incident response purposes.
+
+- Logs are automatically generated with timestamp
+- Each scan creates a new log file
+- Logs store all scan results including alerts and critical detections
+
+## Example Log Output
+
+=== LOG DE ESCANEO SOC ===
+
+[OK] archivo1.txt  
+[ALERTA] virus.exe  
+[CRITICO] foto.jpg.exe  
+
+Total de archivos sospechosos: 2
